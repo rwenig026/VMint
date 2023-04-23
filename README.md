@@ -45,7 +45,7 @@ please toggle it on.
 **Note**: "Sandbox" is a testing environment provided by Stripe for developers to test their integration 
 without making real payments.  
 
-<img src=".assets/toggle_test_mode.png" alt="Toggle Test Mode" width="35%">
+<img src=".assets/toggle_test_mode.png" alt="Toggle Test Mode" width="50%">
 
 #### Create Product
 
@@ -54,7 +54,7 @@ To do this, go to `Products` > `+ Add Product` and complete the Product Informat
 with the details of the NFT collection. 
 Finally, click the `Save Product` button located in the top right corner.
 
-<img src=".assets/product_information.png" width="35%" alt="Product Information Form">
+<img src=".assets/product_information.png" width="75%" alt="Product Information Form">
 
 #### Create Checkout Page
 
@@ -62,14 +62,14 @@ Stripe provides the option to create a customized checkout page for a specific p
 To accomplish this, navigate to `Payments` > `Payment Link` > `+ New` and select the product 
 for which the link should be generated. At this point, custom modifications can also be made.
 
-<img src=".assets/create_payment_link.png" alt="Create Payment Link Form" width="50%">
+<img src=".assets/create_payment_link.png" alt="Create Payment Link Form" width="75%">
 
 Once you have completed the form, simply click the `Create Link` button 
 to generate a unique link to your checkout page.
 This link will be used to direct our customers to the checkout page, 
 where they can easily make their purchase using their preferred payment method.
 
-<img src=".assets/checkout_page.png" alt="The products unique checkout page" width="50%">
+<img src=".assets/checkout_page.png" alt="The products unique checkout page" width="75%">
 
 ### Start the application
 
@@ -134,7 +134,7 @@ the domain name needs to be configured accordingly.
 Once you have completed the aforementioned steps, proceed to launch the backend. 
 Upon completion, the application can be accessed through the following link: http://localhost:8080/.
 
-<img src=".assets/vmint-home.png" alt="Homepage of the platform" width="50%">
+<img src=".assets/vmint-home.png" alt="Homepage of the platform" width="75%">
 
 ## Project Status
 
