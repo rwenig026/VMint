@@ -1,4 +1,4 @@
-package io.wero.archway.fdrop.config.properties;
+package io.wero.archway.vmint.config.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

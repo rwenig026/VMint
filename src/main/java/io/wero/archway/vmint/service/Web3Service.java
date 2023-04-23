@@ -1,4 +1,4 @@
-package io.wero.archway.fdrop.service;
+package io.wero.archway.vmint.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

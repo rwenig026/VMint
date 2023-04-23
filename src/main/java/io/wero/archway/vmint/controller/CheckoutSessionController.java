@@ -1,4 +1,4 @@
-package io.wero.archway.fdrop.controller;
+package io.wero.archway.vmint.controller;
 
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.exception.StripeException;
@@ -9,10 +9,10 @@ import com.stripe.model.StripeObject;
 import com.stripe.model.checkout.Session;
 import com.stripe.net.Webhook;
 import com.stripe.param.checkout.SessionCreateParams;
-import io.wero.archway.fdrop.config.AppConfig;
-import io.wero.archway.fdrop.config.properties.StripeProperties;
-import io.wero.archway.fdrop.model.CheckoutSessionRequest;
-import io.wero.archway.fdrop.service.Web3Service;
+import io.wero.archway.vmint.config.AppConfig;
+import io.wero.archway.vmint.config.properties.StripeProperties;
+import io.wero.archway.vmint.model.CheckoutSessionRequest;
+import io.wero.archway.vmint.service.Web3Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;

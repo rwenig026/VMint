@@ -1,4 +1,4 @@
-package io.wero.archway.fdrop;
+package io.wero.archway.vmint;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

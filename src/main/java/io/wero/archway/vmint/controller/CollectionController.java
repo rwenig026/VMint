@@ -1,6 +1,6 @@
-package io.wero.archway.fdrop.controller;
+package io.wero.archway.vmint.controller;
 
-import io.wero.archway.fdrop.model.Collection;
+import io.wero.archway.vmint.model.Collection;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

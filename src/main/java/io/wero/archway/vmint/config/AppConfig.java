@@ -1,7 +1,7 @@
-package io.wero.archway.fdrop.config;
+package io.wero.archway.vmint.config;
 
 import com.stripe.Stripe;
-import io.wero.archway.fdrop.config.properties.StripeProperties;
+import io.wero.archway.vmint.config.properties.StripeProperties;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

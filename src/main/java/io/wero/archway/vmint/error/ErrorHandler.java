@@ -1,4 +1,4 @@
-package io.wero.archway.fdrop.error;
+package io.wero.archway.vmint.error;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
