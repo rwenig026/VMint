@@ -134,7 +134,7 @@ the domain name needs to be configured accordingly.
 Once you have completed the aforementioned steps, proceed to launch the backend. 
 Upon completion, the application can be accessed through the following link: http://localhost:8080/.
 
-<img src=".assets/vmint-home.png" alt="Homepage of the platform" width="75%">
+<img src=".assets/vmint_home.png" alt="Homepage of the platform" width="75%">
 
 ## Project Status
 
@@ -146,7 +146,7 @@ to the minimum viable product (MVP) stage.<br>
 
 This would include the following features:
 - Use the Stripe account API to register, store, and manage users and content creators.
-- Design and implement an application process for content creators to apply to offer their collections.
-- Managing products through the Stripe API.
+- Design and implement an application process for content creators to offer their collections.
+- Manage products through the Stripe API.
 - Implement the web3 service to enable mint and transfer of NFTs after a successful payment.
 
