@@ -1,0 +1,6 @@
+stripe:
+  secretKey:
+  webhookSecret:
+
+app:
+  domain: "http://localhost:8080/"
