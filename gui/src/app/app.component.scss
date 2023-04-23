@@ -1,0 +1,30 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-link {
+  margin-right: 16px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon-link {
+  color: #fff;
+  margin-right: 8px;
+}

@@ -1,0 +1,23 @@
+<div class="container">
+  <mat-card class="col-card" >
+    <mat-card-header class="col-card-header">
+      <mat-card-title>{{ collectionDto.name }}</mat-card-title>
+      <mat-card-subtitle>{{ collectionDto.collectionId }}</mat-card-subtitle>
+    </mat-card-header>
+    <img class="card-image" src="{{collectionDto.imageUrl}}" alt="Image alt text">
+    <mat-card-content class="col-card-content">
+      <p class="card-description">
+        {{ collectionDto.description }}
+      </p>
+    </mat-card-content>
+    <mat-card-footer class="col-card-footer">
+      {{ centsToDollarString(collectionDto.price) }}
+    </mat-card-footer>
+    <mat-card-actions class="card-actions">
+      <div class="card-button-container">
+        <button class="card-button"  mat-raised-button color="primary" (click)="mint()">Mint</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</div>
+

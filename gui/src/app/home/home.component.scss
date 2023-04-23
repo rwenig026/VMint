@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center; // Center horizontally
+  align-items: center; // Center vertically
+  height: 100vh; // Set the height to fill the viewport
+}
+
+// Define custom styles for mat-card
+.col-card {
+  // Add margin and padding
+  height: auto;
+  width: 450px;
+
+  // Add a box shadow for a nice card effect
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+
+  // Add hover effect
+  &:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+}
+
+// Define card header styles
+.col-card-header {
+  color: black;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-image {
+  width: 100%; /* Set image width to 100% of the card */
+  height: auto; /* Set image height as desired */
+  object-fit: cover; /* Ensure image covers the entire area */
+  object-position: center top; /* Set image position to center top */
+}
+
+// Define card content styles
+.col-card-content {
+  padding: 16px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-description {
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+// Define card footer styles
+.col-card-footer {
+  padding: 16px;
+  font-size: 14px;
+  color: #777;
+  text-align: left;
+}
+
+.card-actions {
+  margin-top: auto; /* Push card actions to the bottom of the card */
+}
+
+.card-button-container {
+  width: 100%;
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center items horizontally */
+}
+
+.card-button {
+  width: 200px; /* Set button width as desired */
+  height: 50px; /* Set button height as desired */
+  font-size: 20px; /* Set font size of the button text */
+}
