@@ -1,3 +1,5 @@
+<img src=".assets/logo_color.png" alt="logo">
+
 # VMint  
 
 This platform aims to bridge the gap between Web2 and Web3 for content creators on <strong>Archway</strong>. 
